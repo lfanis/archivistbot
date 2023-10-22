@@ -3,6 +3,7 @@
 # Install
 
 ## BOT API
+
 1- Open telegram, enter @Botfather in the search tab and choose this bot.
 2- type /newbot
 3- Pick a name, then pick a username it needs to be globally unique and ends with "_bot"
