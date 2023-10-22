@@ -1,5 +1,7 @@
 ![I prompted it all by myself](Logo.jpg)
-5F
+
+A small bot for telegram, share with it your favorite youtube (and other supported sites) and it will download it based on your favorite format.
+
 # Install
 
 ## BOT API
@@ -60,7 +62,8 @@ Prompt: "old librarian , trending on artstation , old school "
 
 # TODO
 
-Clean up the FSM code and move on. 
+Clean up the FSM code and move on.  
+Pretend to care about code security / opsec / secure the bot / secure the path etc.... 
 
 ## Bugs
 - [ ] The code is bad and I should feel bad 
