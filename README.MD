@@ -1,6 +1,6 @@
 ![I prompted it all by myself](Logo.jpg)
 
-A small bot for telegram, share with it your favorite youtube (and other supported sites) and it will download it based on your favorite format.
+A small bot for telegram, share with it your favorite youtube (and other supported sites) and it will download it based on your chosen format.
 
 # Install
 
