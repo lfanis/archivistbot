@@ -4,15 +4,15 @@
 
 ## BOT API
 
-1- Open telegram, enter @Botfather in the search tab and choose this bot.
-2- type /newbot
-3- Pick a name, then pick a username it needs to be globally unique and ends with "_bot"
-4- Get the token and save it , or if you are re-using an old bot call "/token"
+1- Open telegram, enter @Botfather in the search tab and choose this bot.  
+2- type /newbot  
+3- Pick a name, then pick a username it needs to be globally unique and ends with "_bot"  
+4- Get the token and save it , or if you are re-using an old bot call "/token"  
 
-## Traditional
-
-```sh
-# Install ffmpeg using whatever OS package manager you use
+## Traditional  
+  
+```sh  
+# Install ffmpeg using whatever OS package manager you use  
 git clone $URL
 cp .env.example .env 
 emacs .env 
