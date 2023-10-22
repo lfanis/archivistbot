@@ -1,5 +1,5 @@
 ![I prompted it all by myself](Logo.jpg)
-
+5F
 # Install
 
 ## BOT API
@@ -49,35 +49,39 @@ docker run -d -v $ARCHIVE_FOLDER:/tmp/data/archive -v $MUSIC_FOLDER:/tmp/data/mu
 ```
 
 # Logo
-Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be) from [hugging face](https://huggingface.co/22h/vintedois-diffusion-v0-2?text=old+librarian+%2C+trending+on+artstation+%2C+old+school)
-Prompt: "old librarian , trending on artstation , old school "
 
-Probably the laziest logo yet .
+Probably the laziest logo yet .  
+Model: Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be) from [hugging face](https://huggingface.co/22h/vintedois-diffusion-v0-2?text=old+librarian+%2C+trending+on+artstation+%2C+old+school)  
+
+```note
+Prompt: "old librarian , trending on artstation , old school "
+```
+
 
 # TODO
 
 Clean up the FSM code and move on. 
 
 ## Bugs
-- [] The code is bad and I should feel bad 
+- [ ] The code is bad and I should feel bad 
 - [X] Fix archiving to actually download highest quality 
-    - [] block the three reply due to different format
+    - [ ] block the three reply due to different format
 
 ## Major
-- [] add git / fossil / other repo cloning/archiving
-- [] Add full page(URL) cloning + screenshot 
-- [] Add link sync, something along the line of a centralized links database and this would feed into it 
+- [ ] add git / fossil / other repo cloning/archiving
+- [ ] Add full page(URL) cloning + screenshot 
+- [ ] Add link sync, something along the line of a centralized links database and this would feed into it 
 
 ## Mid 
 - [X] Use requirements.txt and/or start to be hip-with the kids and use poetry 
 - [X] Use ReplyKeyboardMarkup and detrmine where the file ends up based on this and what YT-dlp option to give it 
-- [] Fix environment var passing in general 
+- [ ] Fix environment var passing in general 
 - [X] Is ffmpeg really really REALLY needed ?  (It is needed)
-    - [] Install ffmpeg in the container image, 
-    - [] Maybe use [some random](https://johnvansickle.com/ffmpeg/) internet link for a version of ffmpeg that is static
-    - [] Fix parameter to be more generic for the container 
-    - [] Document the container crap 
-- [] Maybe one day build "highest" possible combo of audio and video , via split download (DASH+high quality audion+ffmepg glue them together)
+    - [X] Install ffmpeg in the container image, 
+    - [A] Maybe use [some random](https://johnvansickle.com/ffmpeg/) internet link for a version of ffmpeg that is static
+    - [?] Fix parameter to be more generic for the container 
+    - [ ] Document the container crap (I do not care enough)
+- [ ] Maybe one day build "highest" possible combo of audio and video , via split download (DASH+high quality audion+ffmepg glue them together)
 
 ## Minor
 - [X] better logo the logo is perfect 
