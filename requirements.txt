@@ -1,0 +1,6 @@
+aiogram>=2.25.1
+loguru>=0.6.0
+python-dotenv>=1.0.0
+ffmpeg>=1.4
+ffprobe>=0.5
+yt_dlp>=2023.10.7
